@@ -11,15 +11,11 @@
 		E15FF6EB28DC24A30074328C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A52CCE28D50E95009BB067 /* ContentView.swift */; };
 		E17AA39628DBB7C5009D4775 /* macOSExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17AA39528DBB7C5009D4775 /* macOSExample.swift */; };
 		E17AA39A28DBB7C6009D4775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E17AA39928DBB7C6009D4775 /* Assets.xcassets */; };
-		E18A8E8628D64CA000333B9A /* MobileVLCKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E19CEFEF28D50FE000ADF78E /* MobileVLCKit.xcframework */; };
-		E18A8E8728D64CA000333B9A /* MobileVLCKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E19CEFEF28D50FE000ADF78E /* MobileVLCKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E19CEFEC28D50F1500ADF78E /* VLCUI in Frameworks */ = {isa = PBXBuildFile; productRef = E19CEFEB28D50F1500ADF78E /* VLCUI */; };
 		E19CEFEE28D50F2A00ADF78E /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19CEFED28D50F2A00ADF78E /* OverlayView.swift */; };
 		E19CEFFA28D5101B00ADF78E /* tvOSExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19CEFF928D5101B00ADF78E /* tvOSExample.swift */; };
 		E19CEFFE28D5101C00ADF78E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19CEFFD28D5101C00ADF78E /* Assets.xcassets */; };
 		E19CF00628D5103600ADF78E /* VLCUI in Frameworks */ = {isa = PBXBuildFile; productRef = E19CF00528D5103600ADF78E /* VLCUI */; };
-		E19CF00828D5103B00ADF78E /* TVVLCKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E19CF00728D5103B00ADF78E /* TVVLCKit.xcframework */; };
-		E19CF00928D5103B00ADF78E /* TVVLCKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E19CF00728D5103B00ADF78E /* TVVLCKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E19CF00C28D5106600ADF78E /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19CF00B28D5106600ADF78E /* OverlayView.swift */; };
 		E1A52CCD28D50E95009BB067 /* iOSExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A52CCC28D50E95009BB067 /* iOSExample.swift */; };
 		E1A52CCF28D50E95009BB067 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A52CCE28D50E95009BB067 /* ContentView.swift */; };
@@ -37,28 +33,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E18A8E8828D64CA000333B9A /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				E18A8E8728D64CA000333B9A /* MobileVLCKit.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E19CF00A28D5103B00ADF78E /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				E19CF00928D5103B00ADF78E /* TVVLCKit.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E1CBF2AE28DBBC5900D6724D /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -80,11 +54,9 @@
 		E17AA39E28DBB7C6009D4775 /* macOSExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOSExample.entitlements; sourceTree = "<group>"; };
 		E19CEFE928D50F1100ADF78E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E19CEFED28D50F2A00ADF78E /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
-		E19CEFEF28D50FE000ADF78E /* MobileVLCKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MobileVLCKit.xcframework; path = Carthage/Build/MobileVLCKit.xcframework; sourceTree = "<group>"; };
 		E19CEFF728D5101B00ADF78E /* tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19CEFF928D5101B00ADF78E /* tvOSExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvOSExample.swift; sourceTree = "<group>"; };
 		E19CEFFD28D5101C00ADF78E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E19CF00728D5103B00ADF78E /* TVVLCKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TVVLCKit.xcframework; path = Carthage/Build/TVVLCKit.xcframework; sourceTree = "<group>"; };
 		E19CF00B28D5106600ADF78E /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
 		E1A52CC928D50E95009BB067 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A52CCC28D50E95009BB067 /* iOSExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSExample.swift; sourceTree = "<group>"; };
@@ -104,24 +76,6 @@
 			files = (
 				E1CBF2AC28DBBC5900D6724D /* VLCKit.xcframework in Frameworks */,
 				E1CBF2AA28DBBBE700D6724D /* VLCUI in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E19CEFF428D5101B00ADF78E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E19CF00828D5103B00ADF78E /* TVVLCKit.xcframework in Frameworks */,
-				E19CF00628D5103600ADF78E /* VLCUI in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E1A52CC628D50E95009BB067 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E18A8E8628D64CA000333B9A /* MobileVLCKit.xcframework in Frameworks */,
-				E19CEFEC28D50F1500ADF78E /* VLCUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,8 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				E1CBF2AB28DBBC5900D6724D /* VLCKit.xcframework */,
-				E19CF00728D5103B00ADF78E /* TVVLCKit.xcframework */,
-				E19CEFEF28D50FE000ADF78E /* MobileVLCKit.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
